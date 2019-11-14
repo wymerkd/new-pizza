@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Amatic+SC|Fredericka+the+Great|Merienda&display=swap" rel="stylesheet">
+    <title>Order Pizza</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-nav">
+        <a class="navbar-brand" href="#"><img src="https://2qnwk534wspy32octm1bhyvz-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/1510-pizza-slice_128.png" width="30" height="30" alt=""></a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#order">Order</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+    <header id="home">
+      <h1 id="logo">PDX PIZZA CO</h1>
+      <h2 class="fancy" id="logo-established">Cold Beer. Fresh Ingredients.</h2>
+    </header>
+    <section class="fancy" id="about">
+      <div class="d-flex flex-row justify-content-around">
+        <div class="flex-md-column">
+          <img src="img/small-pizza.jpg" alt="">
+        </div>
+        <div class="flex-md-column">
+          <p>We serve fresh local ingredients, cold beer, and good vibes only in the heart of Downtown Portland. Over 50 beers on tap and late night pizza by the slice. What more could you need?</p>
+        </div>
+      </div>
+    </section>
+    <section id="order">
+      <form class="fancy" id="order-pizza">
+        <div id="first-order">
+          <h1 id="hungry">Eat</h1>
+          <div class="d-flex flex-row justify-content-around">
+            <div id="size" class="flex-md-column">
+              <h5>Choose a size:</h5>
+              <div class="form-group">
+                <label class="radio">
+                  <input type="radio" name="size" value="small" checked> Small (10")
+                </label><br>
+                <label class="radio">
+                  <input type="radio" name="size" value="medium"> Medium (12")
+                </label><br>
+                <label class="radio">
+                  <input type="radio" name="size" value="large"> Large (14")
+                </label>
+              </div>
+            </div>
+            <div id="size" class="flex-md-column">
+              <h5>Crust:</h5>
+              <div class="form-group">
+                <label class="radio">
+                  <input type="radio" name="crust" value="crunchy-thin" checked> Crunchy Thin
+                </label><br>
+                <label class="radio">
+                  <input type="radio" name="crust" value="hand-tossed"> Hand Tossed
+                </label><br>
+                <label class="radio">
+                  <input type="radio" name="crust" value="deep-dish"> Deep Dish
+                </label><br>
+                <label class="radio">
+                  <input type="radio" name="crust" value="gluten-free"> Gluten Free
+                </label>
+              </div>
+              <button id="nextButton" type="button" name="button">Next</button>
+            </div>
+            <div id="sauce" class="flex-md-column">
+              <h5>Sauce:</h5>
+              <div class="form-group">
+                <label class="radio-inline">
+                  <input type="radio" name="sauce" value="traditional" checked> Traditional Marinara
+                </label><br>
+                <label class="radio-inline">
+                  <input type="radio" name="sauce" value="garlic"> Creamy White
+                </label><br>
+                <label class="radio-inline">
+                  <input type="radio" name="sauce" value="barbecue"> Sweet'n'Zesty BBQ
+                </label><br>
+                <label class="radio-inline">
+                  <input type="radio" name="sauce" value="thai"> Thai Chili
+                </label><br>
+                <label class="radio-inline">
+                  <input type="radio" name="sauce" value="garlic"> Garlic Aioli
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fancy" id="second-order">
+          <h5>Your first 3 toppings are free! Add $1.00 for each additional topping.</h5>
+          <div class="d-flex flex-row justify-content-around">
+            <div class="form-group">
+              <div class="checkbox">
+                <div id="meat" class="flex-md-column">
+                  <h5>Meat</h5>
+                  <label><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label><br>
+                  <label><input type="checkbox" name="toppings" value="salami"> Salami</label><br>
+                  <label><input type="checkbox" name="toppings" value="prosciutto"> Prosciutto</label><br>
+                  <label><input type="checkbox" name="toppings" value="ham"> Ham</label><br>
+                  <label><input type="checkbox" name="toppings" value="ground-beef"> Ground Beef</label><br>
+                  <label><input type="checkbox" name="toppings" value="sausage"> Italian Sausage</label><br>
+                  <label><input type="checkbox" name="toppings" value="bacon"> Bacon</label><br>
+                  <label><input type="checkbox" name="toppings" value="chicken"> Chicken</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="checkbox">
+                <div id="veggies" class="flex-md-column">
+                  <h5>Veggies</h5>
+                  <label><input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</label><br>
+                  <label><input type="checkbox" name="toppings" value="green-peppers"> Green Peppers</label><br>
+                  <label><input type="checkbox" name="toppings" value="red-peppers"> Red Peppers</label><br>
+                  <label><input type="checkbox" name="toppings" value="olives"> Black Olives</label><br>
+                  <label><input type="checkbox" name="toppings" value="jalapenos"> Jalapenos</label><br>
+                  <label><input type="checkbox" name="toppings" value="dried-tomatoes"> Sun-dried Tomatoes</label><br>
+                  <label><input type="checkbox" name="toppings" value="tomatoes"> Diced Tomatoes</label><br>
+                  <label><input type="checkbox" name="toppings" value="spinach"> Spinach</label><br>
+                  <label><input type="checkbox" name="toppings" value="broccoli"> Broccoli</label><br>
+                  <label><input type="checkbox" name="toppings" value="roasted-garlic"> Roasted Garlic</label><br>
+                  <label><input type="checkbox" name="toppings" value="red-onions"> Red Onions</label><br>
+                  <label><input type="checkbox" name="toppings" value="yellow-onions"> Yellow Onions</label>
+                </div>
+                <button id="backButton" type="button" name="button">Back</button>
+                <button type="submit" name="button" class="">Place Order</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="checkbox">
+                <div id="additional-toppings" class="flex-md-column">
+                  <h5>Additional Toppings</h5>
+                  <label><input type="checkbox" name="toppings" value="pineapple"> Pineapple</label><br>
+                  <label><input type="checkbox" name="toppings" value="extra-cheese"> Extra Mozzarella</label><br>
+                  <label><input type="checkbox" name="toppings" value="goat"> Goat Cheese</label><br>
+                  <label><input type="checkbox" name="toppings" value="feta"> Feta Cheese</label><br>
+                  <label><input type="checkbox" name="toppings" value="extra-sauce"> Extra Sauce</label><br>
+                  <label><input type="checkbox" name="toppings" value="sriracha"> Sriracha</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="fancy" id="order-summary">
+        <h1>Thank you for your order!</h1><br>
+        <p>Size: <span id="order-size"></span></p>
+        <p>Crust: <span id="order-crust"></span></p>
+        <p>Sauce: <span id="order-sauce"></span></p>
+        <p>Toppings: <span id="order-toppings"></span></p>
+        <p>Total Price: $<span id="order-price"></span>.00</p>
+        <p>Pay upon pickup</p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="d-flex flex-row justify-content-around">
+        <div class="flex-md-column">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2334.543722717463!2d-122.68279072633017!3d45.518186330394414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950ba456680e41%3A0x4a686f66d3059268!2sPDX%20Pizza%20Co!5e0!3m2!1sen!2sus!4v1573529505181!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="flex-md-column">
+          <div class="fancy">
+            <p>123 Fake Street<br>Portland, Oregon 97214</p>
+            <p>Call us @ (555) 555-5555</p>
+            <p>Or send us an email @ info@pdxpizza.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
